@@ -1,5 +1,6 @@
 # [🪢 Juego de Ahorcado](https://davidfrontenddev.github.io/Juego-de-Ahorcado/)
 
+- Las palabras a adivinar estan orientadas al ámbito tecnológico.
 - Objetivo: Crear un juego interactivo de Ahorcado donde el jugador adivina una palabra secreta letra por letra antes de agotar sus intentos.
 
 - Elementos principales:
