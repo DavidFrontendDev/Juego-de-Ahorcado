@@ -62,8 +62,9 @@ function actualizarIntentos() {
 }
 
 inputUsuario.addEventListener("keydown", (event) => {
-  if (event.key === "Enter") {
+  if (event.key === "Enter" || event.key === "intro") {
     juego();
   }
 });
+
 boton.addEventListener("click", juego);
