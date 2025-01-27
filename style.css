@@ -2,26 +2,49 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: darkslategray;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: darkgrey;
+  font-family: Geneva, Tahoma, sans-serif;
+  color: black;
+}
+main {
+  display: flex;
+  justify-content: center;
 }
 section {
+  margin-top: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 5px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 8px 0px white;
+  padding: 15px;
+  width: 400px;
 }
 button {
   padding: 10px;
-  background-color: darkseagreen;
+  background-color: rgb(76, 114, 76);
   border: 1px solid darkslategrey;
   box-shadow: 0px 0px 8px 0px #49935f;
   border-radius: 5px;
+  color: rgb(255, 255, 255);
+  font-weight: bolder;
+  cursor: pointer;
 }
 input {
   padding: 9px;
   width: 100px;
   border-radius: 5px;
   box-shadow: 0px 0px 8px 0px #c6c7c6;
+}
+#informacion {
+  margin-top: 15px;
+  color: rgb(253, 167, 6);
+  font-weight: bolder;
+}
+@media screen and (max-width: 450px) {
+  section {
+    width: 270px;
+  }
 }

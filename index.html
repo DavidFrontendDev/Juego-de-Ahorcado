@@ -8,18 +8,32 @@
     <script src="app.js" defer></script>
   </head>
   <body>
-    <section>
-      <h2>Ahorcado</h2>
-      <div>
-        <img src="" alt="foto_del_ahorcado" />
-      </div>
-      <div>
-        <label for="letra">
-          <input type="text" id="letra" placeholder="Introduce tu letra" />
-          <button type="submit">Probar</button>
-        </label>
-        <span id="informacion"></span>
-      </div>
-    </section>
+    <main>
+      <section>
+        <h2>Juego del Ahorcado</h2>
+        <div>
+          <img
+            src="https://hangman.doncolton.com/play/hang0.png"
+            alt="foto_del_ahorcado"
+            id="imagen_ahorcado"
+            width="300px"
+          />
+        </div>
+        <div>
+          <h2 style="text-align: center" id="palabra"></h2>
+          <label for="letra">
+            <h3 id="intentos">Te quedan: 5 Intentos</h3>
+            <input
+              type="text"
+              id="letra"
+              placeholder="Introduce tu letra"
+              maxlength="1"
+            />
+            <button type="submit" id="probar">Probar</button>
+          </label>
+        </div>
+        <h3 id="informacion"></h3>
+      </section>
+    </main>
   </body>
 </html>
